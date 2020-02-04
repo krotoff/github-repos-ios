@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ManagedRepo" representedClassName="ManagedRepo" syncable="YES" codeGenerationType="category">
+        <attribute name="forks" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="language" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="stars" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" attributeType="String"/>
+        <attribute name="watchers" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ManagedRepoPage" representedClassName="ManagedRepoPage" syncable="YES" codeGenerationType="category">
+        <relationship name="repos" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="ManagedRepo"/>
+    </entity>
+    <elements>
+        <element name="ManagedRepo" positionX="-36" positionY="9" width="128" height="148"/>
+        <element name="ManagedRepoPage" positionX="0" positionY="72" width="128" height="58"/>
+    </elements>
 </model>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="GRY-AY-tuK" customClass="DescriptionCell" customModule="SnowDogTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="A5m-2F-5HG">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wvV-4n-hyR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ceD-S7-Y5v">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ceD-S7-Y5v" secondAttribute="height" id="neO-6J-2jy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEg-fC-kVm">
+                                <rect key="frame" x="54" y="15" width="321" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ceD-S7-Y5v" firstAttribute="height" secondItem="wvV-4n-hyR" secondAttribute="height" id="4HL-Le-Bkq"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wvV-4n-hyR" firstAttribute="top" secondItem="A5m-2F-5HG" secondAttribute="top" id="7BD-tv-Nbd"/>
+                    <constraint firstAttribute="bottom" secondItem="wvV-4n-hyR" secondAttribute="bottom" id="Uon-eV-DGM"/>
+                    <constraint firstAttribute="trailing" secondItem="wvV-4n-hyR" secondAttribute="trailing" id="lyb-0B-fl4"/>
+                    <constraint firstItem="wvV-4n-hyR" firstAttribute="leading" secondItem="A5m-2F-5HG" secondAttribute="leading" id="q6p-oz-x9i"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="imageView" destination="ceD-S7-Y5v" id="Uju-SD-dRx"/>
+                <outlet property="titleLabel" destination="yEg-fC-kVm" id="8pz-3G-ngC"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

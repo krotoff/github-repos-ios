@@ -7,25 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A453FF723EA0D9200C1BA23 /* KeychainGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A453FF623EA0D9200C1BA23 /* KeychainGateway.swift */; };
+		6A453FFA23EA18EF00C1BA23 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A453FF923EA18EF00C1BA23 /* DescriptionCell.swift */; };
+		6A453FFC23EA18F500C1BA23 /* DescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A453FFB23EA18F500C1BA23 /* DescriptionCell.xib */; };
+		6A453FFF23EA1FC000C1BA23 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A453FFE23EA1FC000C1BA23 /* ButtonCell.xib */; };
+		6A45400123EA1FC900C1BA23 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45400023EA1FC900C1BA23 /* ButtonCell.swift */; };
+		6A50D6DD23E8342500E361C9 /* ManagedRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6DC23E8342500E361C9 /* ManagedRepo.swift */; };
+		6A50D6E323E83F7E00E361C9 /* ManagedRepoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6E223E83F7E00E361C9 /* ManagedRepoPage.swift */; };
+		6A50D6E723E840D800E361C9 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6E623E840D800E361C9 /* NSManagedObjectContext.swift */; };
+		6A50D6EC23E8421D00E361C9 /* ReposCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6EB23E8421D00E361C9 /* ReposCoordinator.swift */; };
+		6A50D6EE23E8426900E361C9 /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6ED23E8426900E361C9 /* ReposViewController.swift */; };
+		6A50D6F323E8453C00E361C9 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6F223E8453C00E361C9 /* RepoCell.swift */; };
+		6A50D6F523E8455400E361C9 /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A50D6F423E8455400E361C9 /* RepoCell.xib */; };
+		6A50D6F823E848A700E361C9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6F723E848A700E361C9 /* UIView.swift */; };
+		6A50D6FA23E848CF00E361C9 /* UISpringTimingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6F923E848CF00E361C9 /* UISpringTimingParameters.swift */; };
+		6A50D6FC23E84FCF00E361C9 /* NetworkGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6FB23E84FCF00E361C9 /* NetworkGateway.swift */; };
+		6A50D6FE23E850E100E361C9 /* UICollectionView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D6FD23E850E100E361C9 /* UICollectionView+Cell.swift */; };
+		6A50D71023E8A6DD00E361C9 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A50D70F23E8A6DD00E361C9 /* colors.json */; };
+		6A50D71223E8A82800E361C9 /* ProjectFilesGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D71123E8A82800E361C9 /* ProjectFilesGateway.swift */; };
+		6A50D71423E8AB8A00E361C9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D71323E8AB8A00E361C9 /* UIColor.swift */; };
+		6A50D71623E8B41C00E361C9 /* KeyboardOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D71523E8B41C00E361C9 /* KeyboardOffsetView.swift */; };
+		6A50D71923E8B5E700E361C9 /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D71823E8B5E600E361C9 /* RepoDetailsViewController.swift */; };
+		6A50D71B23E8B80400E361C9 /* RepoDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50D71A23E8B80400E361C9 /* RepoDetailsCoordinator.swift */; };
 		6A71660423E8195F00AC3A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71660323E8195F00AC3A15 /* AppDelegate.swift */; };
-		6A71660623E8195F00AC3A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71660523E8195F00AC3A15 /* SceneDelegate.swift */; };
-		6A71660823E8195F00AC3A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71660723E8195F00AC3A15 /* ViewController.swift */; };
 		6A71660B23E8195F00AC3A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A71660923E8195F00AC3A15 /* Main.storyboard */; };
 		6A71660E23E8195F00AC3A15 /* SnowDogTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A71660C23E8195F00AC3A15 /* SnowDogTest.xcdatamodeld */; };
 		6A71661023E8196900AC3A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A71660F23E8196900AC3A15 /* Assets.xcassets */; };
 		6A71661323E8196900AC3A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A71661123E8196900AC3A15 /* LaunchScreen.storyboard */; };
+		6A71661C23E819BB00AC3A15 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71661B23E819BB00AC3A15 /* AppCoordinator.swift */; };
+		6A71662023E819E700AC3A15 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71661F23E819E700AC3A15 /* Coordinator.swift */; };
+		6A71662323E81A1800AC3A15 /* CoordinatableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71662223E81A1800AC3A15 /* CoordinatableViewController.swift */; };
+		6A71662623E81A6000AC3A15 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71662523E81A6000AC3A15 /* ServiceProvider.swift */; };
+		6A71662923E81B3D00AC3A15 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71662823E81B3D00AC3A15 /* DataProvider.swift */; };
+		6A71662B23E81B5100AC3A15 /* CoreDataGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71662A23E81B5100AC3A15 /* CoreDataGateway.swift */; };
+		6A71662D23E81BB300AC3A15 /* RepoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71662C23E81BB300AC3A15 /* RepoService.swift */; };
+		6A71663023E81C3D00AC3A15 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71662F23E81C3D00AC3A15 /* Repo.swift */; };
+		6A71663223E81D9700AC3A15 /* RepoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71663123E81D9700AC3A15 /* RepoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A453FF623EA0D9200C1BA23 /* KeychainGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainGateway.swift; sourceTree = "<group>"; };
+		6A453FF923EA18EF00C1BA23 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		6A453FFB23EA18F500C1BA23 /* DescriptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionCell.xib; sourceTree = "<group>"; };
+		6A453FFE23EA1FC000C1BA23 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		6A45400023EA1FC900C1BA23 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		6A50D6DC23E8342500E361C9 /* ManagedRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedRepo.swift; sourceTree = "<group>"; };
+		6A50D6E223E83F7E00E361C9 /* ManagedRepoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedRepoPage.swift; sourceTree = "<group>"; };
+		6A50D6E623E840D800E361C9 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		6A50D6EB23E8421D00E361C9 /* ReposCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposCoordinator.swift; sourceTree = "<group>"; };
+		6A50D6ED23E8426900E361C9 /* ReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
+		6A50D6F223E8453C00E361C9 /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		6A50D6F423E8455400E361C9 /* RepoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoCell.xib; sourceTree = "<group>"; };
+		6A50D6F723E848A700E361C9 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		6A50D6F923E848CF00E361C9 /* UISpringTimingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISpringTimingParameters.swift; sourceTree = "<group>"; };
+		6A50D6FB23E84FCF00E361C9 /* NetworkGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGateway.swift; sourceTree = "<group>"; };
+		6A50D6FD23E850E100E361C9 /* UICollectionView+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Cell.swift"; sourceTree = "<group>"; };
+		6A50D70F23E8A6DD00E361C9 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		6A50D71123E8A82800E361C9 /* ProjectFilesGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectFilesGateway.swift; sourceTree = "<group>"; };
+		6A50D71323E8AB8A00E361C9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6A50D71523E8B41C00E361C9 /* KeyboardOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardOffsetView.swift; sourceTree = "<group>"; };
+		6A50D71823E8B5E600E361C9 /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
+		6A50D71A23E8B80400E361C9 /* RepoDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsCoordinator.swift; sourceTree = "<group>"; };
 		6A71660023E8195F00AC3A15 /* SnowDogTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowDogTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A71660323E8195F00AC3A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A71660523E8195F00AC3A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A71660723E8195F00AC3A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A71660A23E8195F00AC3A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A71660D23E8195F00AC3A15 /* SnowDogTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnowDogTest.xcdatamodel; sourceTree = "<group>"; };
 		6A71660F23E8196900AC3A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A71661223E8196900AC3A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A71661423E8196900AC3A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A71661B23E819BB00AC3A15 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6A71661F23E819E700AC3A15 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6A71662223E81A1800AC3A15 /* CoordinatableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatableViewController.swift; sourceTree = "<group>"; };
+		6A71662523E81A6000AC3A15 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		6A71662823E81B3D00AC3A15 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		6A71662A23E81B5100AC3A15 /* CoreDataGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataGateway.swift; sourceTree = "<group>"; };
+		6A71662C23E81BB300AC3A15 /* RepoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoService.swift; sourceTree = "<group>"; };
+		6A71662F23E81C3D00AC3A15 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		6A71663123E81D9700AC3A15 /* RepoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +97,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A453FF823EA18E200C1BA23 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				6A453FF923EA18EF00C1BA23 /* DescriptionCell.swift */,
+				6A453FFB23EA18F500C1BA23 /* DescriptionCell.xib */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		6A453FFD23EA1FB100C1BA23 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				6A453FFE23EA1FC000C1BA23 /* ButtonCell.xib */,
+				6A45400023EA1FC900C1BA23 /* ButtonCell.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		6A50D6E423E840B000E361C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6F623E8489C00E361C9 /* UI */,
+				6A50D6E523E840B600E361C9 /* CoreData */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A50D6E523E840B600E361C9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6E623E840D800E361C9 /* NSManagedObjectContext.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6A50D6E823E841F800E361C9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6EF23E844B800E361C9 /* Elements */,
+				6A50D6E923E841FD00E361C9 /* Stories */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6A50D6E923E841FD00E361C9 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D71723E8B5BC00E361C9 /* RepoDetails */,
+				6A50D6EA23E8421300E361C9 /* Repos */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		6A50D6EA23E8421300E361C9 /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6EB23E8421D00E361C9 /* ReposCoordinator.swift */,
+				6A50D6ED23E8426900E361C9 /* ReposViewController.swift */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		6A50D6EF23E844B800E361C9 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6F023E844C100E361C9 /* Cells */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		6A50D6F023E844C100E361C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6A453FFD23EA1FB100C1BA23 /* Button */,
+				6A453FF823EA18E200C1BA23 /* Description */,
+				6A50D6F123E844C700E361C9 /* Repo */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6A50D6F123E844C700E361C9 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6F223E8453C00E361C9 /* RepoCell.swift */,
+				6A50D6F423E8455400E361C9 /* RepoCell.xib */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		6A50D6F623E8489C00E361C9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6F723E848A700E361C9 /* UIView.swift */,
+				6A50D6F923E848CF00E361C9 /* UISpringTimingParameters.swift */,
+				6A50D6FD23E850E100E361C9 /* UICollectionView+Cell.swift */,
+				6A50D71323E8AB8A00E361C9 /* UIColor.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6A50D71723E8B5BC00E361C9 /* RepoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D71A23E8B80400E361C9 /* RepoDetailsCoordinator.swift */,
+				6A50D71823E8B5E600E361C9 /* RepoDetailsViewController.swift */,
+			);
+			path = RepoDetails;
+			sourceTree = "<group>";
+		};
 		6A7165F723E8195F00AC3A15 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +225,96 @@
 		6A71660223E8195F00AC3A15 /* SnowDogTest */ = {
 			isa = PBXGroup;
 			children = (
+				6A50D6E823E841F800E361C9 /* UI */,
+				6A71662E23E81C3000AC3A15 /* Models */,
+				6A71662723E81B3400AC3A15 /* Data */,
+				6A71662423E81A5400AC3A15 /* Services */,
+				6A71661D23E819BF00AC3A15 /* Library */,
+				6A71661A23E819B100AC3A15 /* App */,
 				6A71660323E8195F00AC3A15 /* AppDelegate.swift */,
-				6A71660523E8195F00AC3A15 /* SceneDelegate.swift */,
-				6A71660723E8195F00AC3A15 /* ViewController.swift */,
 				6A71660923E8195F00AC3A15 /* Main.storyboard */,
+				6A50D70F23E8A6DD00E361C9 /* colors.json */,
 				6A71660F23E8196900AC3A15 /* Assets.xcassets */,
 				6A71661123E8196900AC3A15 /* LaunchScreen.storyboard */,
 				6A71661423E8196900AC3A15 /* Info.plist */,
 				6A71660C23E8195F00AC3A15 /* SnowDogTest.xcdatamodeld */,
 			);
 			path = SnowDogTest;
+			sourceTree = "<group>";
+		};
+		6A71661A23E819B100AC3A15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6A71661B23E819BB00AC3A15 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6A71661D23E819BF00AC3A15 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6E423E840B000E361C9 /* Extensions */,
+				6A71662123E81A0700AC3A15 /* Subclasses */,
+				6A71661E23E819DF00AC3A15 /* Classes */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6A71661E23E819DF00AC3A15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A71661F23E819E700AC3A15 /* Coordinator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A71662123E81A0700AC3A15 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				6A71662223E81A1800AC3A15 /* CoordinatableViewController.swift */,
+				6A50D71523E8B41C00E361C9 /* KeyboardOffsetView.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		6A71662423E81A5400AC3A15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6A71662523E81A6000AC3A15 /* ServiceProvider.swift */,
+				6A71662C23E81BB300AC3A15 /* RepoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6A71662723E81B3400AC3A15 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6A71662823E81B3D00AC3A15 /* DataProvider.swift */,
+				6A453FF623EA0D9200C1BA23 /* KeychainGateway.swift */,
+				6A50D6FB23E84FCF00E361C9 /* NetworkGateway.swift */,
+				6A71662A23E81B5100AC3A15 /* CoreDataGateway.swift */,
+				6A50D71123E8A82800E361C9 /* ProjectFilesGateway.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6A71662E23E81C3000AC3A15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A71663323E81DEB00AC3A15 /* Managed */,
+				6A71662F23E81C3D00AC3A15 /* Repo.swift */,
+				6A71663123E81D9700AC3A15 /* RepoPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A71663323E81DEB00AC3A15 /* Managed */ = {
+			isa = PBXGroup;
+			children = (
+				6A50D6DC23E8342500E361C9 /* ManagedRepo.swift */,
+				6A50D6E223E83F7E00E361C9 /* ManagedRepoPage.swift */,
+			);
+			path = Managed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +376,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A71661323E8196900AC3A15 /* LaunchScreen.storyboard in Resources */,
+				6A50D71023E8A6DD00E361C9 /* colors.json in Resources */,
 				6A71661023E8196900AC3A15 /* Assets.xcassets in Resources */,
 				6A71660B23E8195F00AC3A15 /* Main.storyboard in Resources */,
+				6A453FFF23EA1FC000C1BA23 /* ButtonCell.xib in Resources */,
+				6A453FFC23EA18F500C1BA23 /* DescriptionCell.xib in Resources */,
+				6A50D6F523E8455400E361C9 /* RepoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +392,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A71660823E8195F00AC3A15 /* ViewController.swift in Sources */,
+				6A71662623E81A6000AC3A15 /* ServiceProvider.swift in Sources */,
+				6A50D6E323E83F7E00E361C9 /* ManagedRepoPage.swift in Sources */,
+				6A71661C23E819BB00AC3A15 /* AppCoordinator.swift in Sources */,
+				6A71662323E81A1800AC3A15 /* CoordinatableViewController.swift in Sources */,
+				6A71662923E81B3D00AC3A15 /* DataProvider.swift in Sources */,
+				6A71662023E819E700AC3A15 /* Coordinator.swift in Sources */,
+				6A50D6FA23E848CF00E361C9 /* UISpringTimingParameters.swift in Sources */,
+				6A50D6EC23E8421D00E361C9 /* ReposCoordinator.swift in Sources */,
+				6A453FFA23EA18EF00C1BA23 /* DescriptionCell.swift in Sources */,
+				6A50D6F323E8453C00E361C9 /* RepoCell.swift in Sources */,
+				6A50D6FC23E84FCF00E361C9 /* NetworkGateway.swift in Sources */,
+				6A45400123EA1FC900C1BA23 /* ButtonCell.swift in Sources */,
+				6A50D71423E8AB8A00E361C9 /* UIColor.swift in Sources */,
 				6A71660E23E8195F00AC3A15 /* SnowDogTest.xcdatamodeld in Sources */,
+				6A71662D23E81BB300AC3A15 /* RepoService.swift in Sources */,
+				6A50D6FE23E850E100E361C9 /* UICollectionView+Cell.swift in Sources */,
+				6A50D6DD23E8342500E361C9 /* ManagedRepo.swift in Sources */,
+				6A453FF723EA0D9200C1BA23 /* KeychainGateway.swift in Sources */,
+				6A50D71B23E8B80400E361C9 /* RepoDetailsCoordinator.swift in Sources */,
+				6A50D71923E8B5E700E361C9 /* RepoDetailsViewController.swift in Sources */,
+				6A71663223E81D9700AC3A15 /* RepoPage.swift in Sources */,
+				6A71663023E81C3D00AC3A15 /* Repo.swift in Sources */,
+				6A50D6EE23E8426900E361C9 /* ReposViewController.swift in Sources */,
 				6A71660423E8195F00AC3A15 /* AppDelegate.swift in Sources */,
-				6A71660623E8195F00AC3A15 /* SceneDelegate.swift in Sources */,
+				6A71662B23E81B5100AC3A15 /* CoreDataGateway.swift in Sources */,
+				6A50D6F823E848A700E361C9 /* UIView.swift in Sources */,
+				6A50D71223E8A82800E361C9 /* ProjectFilesGateway.swift in Sources */,
+				6A50D71623E8B41C00E361C9 /* KeyboardOffsetView.swift in Sources */,
+				6A50D6E723E840D800E361C9 /* NSManagedObjectContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,10 +567,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q72JE9WMB;
 				INFOPLIST_FILE = SnowDogTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.krotov.SnowDogTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -309,10 +587,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q72JE9WMB;
 				INFOPLIST_FILE = SnowDogTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.krotov.SnowDogTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
